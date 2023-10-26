@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: darkgray;
+            background-image: url('index.jpg'); 
+            background-repeat: no-repeat;
+            background-position: right;
+            background-attachment: fixed;
+            background-size: contain;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 200vh;
+        }
+
+        h1 {
+            font-size: 75px;
+            border-color: antiquewhite;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: right;
+            margin-left: 10px;
+            color: #fff;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 5px 5px;
+            margin: 5px;
+            width: 300px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our <br>Career Crafters Connect</h1>
+        <a href="login_form.php" class="btn">Login</a>
+        <a href="register_form.php" class="btn">Sign-Up</a>
+    </div>
+</body>
+</html>
